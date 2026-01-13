@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"QMNbrar+1g2js+9YoG2IBdLoxoDMVYTRiKocVQBTy3c="},"public":{"type":"Buffer","data":"7/5KvLaARNjF7ePU37S6uu2IOZfDvi+ectEg3i732DE="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"KG9cgtuaHIHLm1Sh5tfqUWngXnE19h+C94ud38kuWlQ="},"public":{"type":"Buffer","data":"lW5FytSk8UO43RQi0qH7mwppsyQU04lIShKCvXa/IVc="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"YKqf/lDTT7J8FE5HqmP/j1P9UnAhlXJpkQkpvri/3lc="},"public":{"type":"Buffer","data":"Iz1sGMo6/RzOcvEkJ/ESRgEaaVoS9TD4cuUPPqeFHVs="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"YL7fMamtE2AGLXU6MWfOKx/LFnngbEgefG7A3CFg5FU="},"public":{"type":"Buffer","data":"PoEZ2CIBU1V6toOPqgyjswK4RcX4e30135kJOB4v3Sc="}},"signature":{"type":"Buffer","data":"MO8+TP6Xp0u0QP802F7Rb5AEkUyVLjXApbj+lm8+IE5E3YAgXQ9bC/MKDX3/qU8yl7aRVAFVZFxrOaa0VGUDDw=="},"keyId":1},"registrationId":58,"advSecretKey":"lSQKfuggWbY+YiWecg9qYgRvEoIHUcbL+YklBmnfmCc=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"P38TKCXG","me":{"id":"254769230834:56@s.whatsapp.net","lid":"36022276632661:56@lid"},"account":{"details":"CMqpo4gDEIKSl8sGGAEgACgA","accountSignatureKey":"TcEIfv5XrXilEY2rMc06BHrniD0aDcZVfBvzU9jW3jA=","accountSignature":"P5UesnLPNBa8iXzrJ4g6kR9lawMgBrjfiCpASmYa9hKnA0XnOG/sCLd65jY3P6DtICjC1nOMQYvDN0LW2jNjAw==","deviceSignature":"bmoZwZyoYmdl/jUF4ODWhfnU62urC+e91m6rtQkpXnDmBhRE+9gQbQuvaROCH9T5DqpvilbTKO52ZoqSUqQPBQ=="},"signalIdentities":[{"identifier":{"name":"254769230834:56@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BU3BCH7+V614pRGNqzHNOgR654g9Gg3GVXwb81PY1t4w"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CBIIBQgN"},"lastAccountSyncTimestamp":1768278283,"lastPropHash":"3R9Z39","preKeys":{"private":{"type":"Buffer","data":"IOvYjSwJTR2oK8JfKFs4yXNXq3cva/qac82yw9tucVI="},"public":{"type":"Buffer","data":"zG6Dda9O+u3rDW4Dm9Tb8ROXKiObqsNNVI1lgA50rFQ="}},"senderKeys":{},"timestamp":"2026-01-13T04:24:48.737Z"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -21,12 +21,12 @@
     },
     "AUTO_STATUS_REACT": {
       "description": "Set true to auto-react to Status.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
       "ANTIDELETE": {
       "description": "Set true to see deleted messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "WELCOME": {
@@ -41,7 +41,7 @@
     },
     "CHATBOT": {
       "description": "Set to true if you want your bot to autoreply messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -51,7 +51,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "254769230834"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
